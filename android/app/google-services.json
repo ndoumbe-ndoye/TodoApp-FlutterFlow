@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077670527348",
+    "project_id": "to-do-app-c4vpn3",
+    "storage_bucket": "to-do-app-c4vpn3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077670527348:android:c3ba5a8de2e221ae95ec21",
+        "android_client_info": {
+          "package_name": "com.mycompany.todoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfOWjjEdhmnhzs04_3Yvjo9uztCtjcppI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
