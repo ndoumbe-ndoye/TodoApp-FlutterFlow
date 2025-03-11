@@ -128,6 +128,7 @@ class _NavBarPageState extends State<NavBarPage> {
     final tabs = {
       'task': TaskWidget(),
       'Completed': CompletedWidget(),
+      'QuotesIN': QuotesINWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -160,6 +161,14 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 30.0,
             ),
             label: 'Home',
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.auto_awesome_outlined,
+              size: 30.0,
+            ),
+            label: 'Insperational Quotes',
             tooltip: '',
           )
         ],
